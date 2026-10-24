@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-homepage",
+  "version": "1.0.0",
+  "description": "A responsive restaurant landing page built with HTML, CSS, and JavaScript as part of The Odin Project. This project focuses on DOM manipulation, dynamically rendering page content, organizing code with ES6 modules, and building an interactive user interface while strengthening my JavaScript skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "watch":"webpack --watch",
+    "start":"webpack server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidKuria-M/Restaurant-Homepage.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DavidKuria-M/Restaurant-Homepage/issues"
+  },
+  "homepage": "https://github.com/DavidKuria-M/Restaurant-Homepage#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-webpack-loader": "^0.0.5",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.0",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
